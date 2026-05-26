@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\app\" -Recurse -Force | Where-Object { !$_.PSIsContainer } | Select-Object FullName, Length, LastWriteTime)",
+      "Bash(npm install *)",
+      "Bash(npx shadcn@latest add card input form badge avatar dropdown-menu sheet separator skeleton tabs table sonner dialog select checkbox tooltip alert breadcrumb chart navigation-menu --yes)",
+      "Bash(npx shadcn@latest add form --yes)",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\components\\\\layout\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\components\\\\landing\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\components\\\\dashboard\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\app\\\\\\(auth\\)\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\app\\\\\\(auth\\)\\\\login\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\app\\\\\\(auth\\)\\\\register\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\app\\\\\\(dashboard\\)\")",
+      "Bash(mkdir \"D:\\\\workspace\\\\courses\\\\claude-nextjs-starters\\\\app\\\\\\(dashboard\\)\\\\dashboard\")",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"const icons = require\\('lucide-react'\\); const keys = Object.keys\\(icons\\); console.log\\(keys.filter\\(k => k.toLowerCase\\(\\).includes\\('github'\\)\\)\\)\")",
+      "Bash(node -e \"const icons = require\\('lucide-react'\\); const keys = Object.keys\\(icons\\); console.log\\(keys.filter\\(k => k.toLowerCase\\(\\).includes\\('code'\\) || k.toLowerCase\\(\\).includes\\('brand'\\)\\).slice\\(0,20\\)\\)\")",
+      "Bash(node -e \"try { require\\('@radix-ui/react-slot'\\); console.log\\('slot ok'\\) } catch\\(e\\) { console.log\\('slot missing'\\) }\")",
+      "Bash(node -e \"try { require\\('@radix-ui/react-label'\\); console.log\\('label ok'\\) } catch\\(e\\) { console.log\\('label missing'\\) }\")",
+      "Bash(Remove-Item -Recurse -Force .next -ErrorAction SilentlyContinue)",
+      "Bash(npm run *)",
+      "Bash(timeout 20 npm run dev)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npm list *)",
+      "Bash(timeout 60 node verify.mjs)",
+      "Bash(npx playwright *)"
+    ]
+  }
+}
